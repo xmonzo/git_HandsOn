@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
+# import libraries
 import sys, re
 from argparse import ArgumentParser
 
+# arguments
 parser = ArgumentParser(description = 'Classify a sequence as DNA or RNA')
 parser.add_argument("-s", "--seq", type = str, required = True, help = 
 "Input sequence")
